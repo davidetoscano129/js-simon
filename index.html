@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Timer</title>
+  <!-- Bootstrap -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css'
+    integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=='
+    crossorigin='anonymous' />
+</head>
+
+<body>
+
+    <div>
+        
+        <!-- Conto alla rovescia -->
+        <div id="countdown"></div>
+        <p id="instructions">Memorizza i numeri entro il tempo limite!</p>
+
+        <!-- Lista dei numeri -->
+        <ul id="numbers-list"></ul>
+
+        <!-- Form per l'input dei numeri -->
+        <form id="answers-form">
+            <div id="input-group">
+                <input type="number" class="form-control" placeholder="Numero 1">
+                <input type="number" class="form-control" placeholder="Numero 2">
+                <input type="number" class="form-control" placeholder="Numero 3">
+                <input type="number" class="form-control" placeholder="Numero 4">
+                <input type="number" class="form-control" placeholder="Numero 5">
+            </div>
+            <button type="submit">Conferma</button>
+            <p id="message"></p>
+        </form>
+
+        <!-- Pulsante di start -->
+        <div>
+            <buttonid="start-btn">Inizia</buttonid=>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
